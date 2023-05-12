@@ -1,0 +1,79 @@
+body{
+    margin-left:80px;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 50%, 50%;
+    grid-template-rows: 600px, 600px, 600px, 600px, 600px;
+    grid-template-areas: 
+    "maintinence metrics"
+    "electrification passengers"
+    "solution solution"
+    "solution-computerization solution-computerization"
+    "solution-beeline beeline-site"
+    ;
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+}
+
+.tableElement{
+    border-style: dashed;
+    border-width: 1px;
+    border-color: black;
+    background-color: #FFFAFA;
+}
+
+#metrics{
+    grid-area: metrics;
+    padding: 15px;
+    
+}
+
+#maintinence{
+    grid-area: maintinence;
+    padding: 15px;
+}
+
+#electrification{
+    grid-area: electrification;
+    padding: 15px;
+}
+
+#passengers{
+    grid-area: passengers;
+    padding: 15px;
+}
+
+#solution{
+    grid-area: solution;
+    padding: 15px;
+}
+
+#solution-computerization{
+    grid-area: solution-computerization;
+    padding: 15px;
+}
+
+#solution-beeline{
+    grid-area: solution-beeline;
+    padding: 15px;
+}
+
+#beeline-site{
+    grid-area: beeline-site;
+    padding: 1px;
+}
+
+#sidebar{
+    width:80px;
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    background-color: aliceblue;
+    border-right-width: 1px;
+    border-right-style: groove;
+    border-right-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
